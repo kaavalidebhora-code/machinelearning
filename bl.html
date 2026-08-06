@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Blog</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <style>
+
+        body{
+            background:#f2f2f2;
+            font-family:Arial;
+        }
+
+        .navbar{
+            margin-bottom:0;
+        }
+
+        .carousel-inner img{
+            width:100%;
+            height:450px;
+            object-fit:cover;
+        }
+
+        .carousel-caption{
+            background:rgba(0,0,0,0.6);
+            padding:20px;
+            border-radius:15px;
+        }
+
+
+        .blog{
+            background:white;
+            padding:20px;
+            margin-top:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        .blog img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            padding:20px;
+            text-align:center;
+            margin-top:30px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-inverse">
+
+<div class="container">
+
+<div class="navbar-header">
+<a class="navbar-brand" href="#">
+My Blog
+</a>
+</div>
+
+
+<ul class="nav navbar-nav">
+
+<li class="active">
+<a href="#">Home</a>
+</li>
+
+<li>
+<a href="#">About Me</a>
+</li>
+
+<li>
+<a href="#">My Posts</a>
+</li>
+
+<li>
+<a href="#">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+</nav>
+
+
+
+<!-- Carousel -->
+
+<div id="myCarousel"
+class="carousel slide"
+data-ride="carousel"
+data-interval="3000">
+
+
+<!-- Dots -->
+
+<ol class="carousel-indicators">
+
+<li data-target="#myCarousel"
+data-slide-to="0"
+class="active"></li>
+
+<li data-target="#myCarousel"
+data-slide-to="1"></li>
+
+<li data-target="#myCarousel"
+data-slide-to="2"></li>
+
+<li data-target="#myCarousel"
+data-slide-to="3"></li>
+
+</ol>
+
+
+
+<div class="carousel-inner">
+
+
+<!-- Image 1 -->
+
+<div class="item active">
+
+<img src="download.jpg">
+
+<div class="carousel-caption">
+
+<h2>Welcome To My Blog</h2>
+
+<p>
+Hello, I am a Computer Science student.
+This blog describes my journey, interests and experiences.
+</p>
+
+</div>
+
+</div>
+
+
+
+<!-- Image 2 -->
+
+<div class="item">
+
+<img src="computer.jpg">
+
+<div class="carousel-caption">
+
+<h2>My Computer Science Journey</h2>
+
+<p>
+I am learning programming, software development and
+modern technologies to improve my skills.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+<!-- Image 3 -->
+
+<div class="item">
+
+<img src="coding.jpg">
+
+<div class="carousel-caption">
+
+<h2>My Passion For Coding</h2>
+
+<p>
+Coding allows me to create websites, solve problems,
+and turn my ideas into useful applications.
+</p>
+
+</div>
+
+</div>
+
+
+
+
+<!-- Image 4 -->
+
+<div class="item">
+
+<img src="singing.jpg">
+
+<div class="carousel-caption">
+
+<h2>My Hobbies</h2>
+
+<p>
+Apart from coding, I enjoy singing, listening to music,
+and exploring my creativity.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+<!-- Controls -->
+
+<a class="left carousel-control"
+href="#myCarousel"
+data-slide="prev">
+
+<span class="glyphicon glyphicon-chevron-left"></span>
+
+</a>
+
+
+
+<a class="right carousel-control"
+href="#myCarousel"
+data-slide="next">
+
+<span class="glyphicon glyphicon-chevron-right"></span>
+
+</a>
+
+
+</div>
+
+
+
+
+
+<!-- Blog Content -->
+
+<div class="container">
+
+
+<h1 class="text-center">
+My Latest Posts
+</h1>
+
+
+
+<div class="row">
+
+
+<div class="col-md-4">
+
+<div class="blog">
+
+<img src="coding.jpg">
+
+<h3>
+Learning Programming
+</h3>
+
+<p>
+Programming is my favourite skill.
+I enjoy writing code and creating projects
+using HTML, CSS, Bootstrap and JavaScript.
+</p>
+
+<button class="btn btn-primary">
+Read More
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div class="col-md-4">
+
+<div class="blog">
+
+<img src="computer.jpg">
+
+<h3>
+My Student Life
+</h3>
+
+<p>
+As a Computer Science student, I explore
+new technologies and improve my technical
+knowledge every day.
+</p>
+
+<button class="btn btn-primary">
+Read More
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div class="col-md-4">
+
+<div class="blog">
+
+<img src="singing.jpg">
+
+<h3>
+My hobbies
+</h3>
+
+<p>
+Music and singing help me relax and
+increase my creativity. I believe hobbies
+make life more enjoyable.
+</p>
+
+<button class="btn btn-primary">
+Read More
+</button>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<footer>
+
+<h4>
+© 2026 My Personal Blog
+</h4>
+
+<p>
+Created using Bootstrap Carousel
+</p>
+
+</footer>
+
+
+</body>
+</html>
